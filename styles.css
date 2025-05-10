@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* ======================
+     Top Info Row
+  ====================== */
+  #headerInfo {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    transition: 
+      opacity 1s ease, 
+      visibility 0.4s ease, 
+      height 0.4s ease, 
+      padding 0.4s ease, 
+      border 0.4s ease;
+  }
+  
+  #headerInfo.hidden {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0 20px;
+    border: none;
+  }
+  
+  /* ======================
+     Header Main Row
+  ====================== */
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .toggle-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+  }
+  
+  .enquire-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  /* ======================
+     Navigation Menu
+  ====================== */
+  .nav-menu {
+    background-color: #eaeaea;
+    overflow: hidden;
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+    transition: 
+      opacity 1s ease, 
+      visibility 0.4s ease, 
+      height 0.4s ease, 
+      padding 0.4s ease;
+  }
+  
+  .nav-menu.hidden {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
